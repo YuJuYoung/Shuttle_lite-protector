@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardActivity">
+
+    <TextView
+        android:id="@+id/NFC_notice"
+        android:layout_width="351dp"
+        android:layout_height="234dp"
+        android:gravity="center"
+        android:text="자신의 스마트폰의 뒷면과 운전자의 스마트폰의 뒷면을 접촉해주세요."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.798" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="181dp"
+        android:layout_height="213dp"
+        android:contentDescription="자신의 스마트폰의 뒷면과 운전자의 스마트폰의 뒷면을 접촉해주세요."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372"
+        app:srcCompat="@drawable/ic_baseline_mobile_screen_share_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

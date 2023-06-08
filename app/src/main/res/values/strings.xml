@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">2022 배리어프리 셔틀라이트(보호자 앱)</string>
+    <string name="servicedesc">Host APDU Service</string>
+    <string name="aiddescription">AID</string>
+</resources>
